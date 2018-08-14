@@ -7,8 +7,8 @@
 #include "CoreMinimal.h"
 #include "GameDNAinstallerTypes.h"
 #include "HttpModule.h"
-#include "IHttpRequest.h"
-#include "IHttpResponse.h"
+#include "Interfaces/IHttpRequest.h"
+#include "Interfaces/IHttpResponse.h"
 #include "Dom/JsonValue.h"
 
 class FGameDNAinstallerCore

@@ -1,6 +1,7 @@
 // gameDNA installer
 // Created by Patryk Stepniewski
 // Copyright (c) 2014-2018 gameDNA Ltd. All Rights Reserved.
+using System.IO;
 
 namespace UnrealBuildTool.Rules
 {
@@ -10,7 +11,11 @@ namespace UnrealBuildTool.Rules
 		{
 			PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 
-			PrivateIncludePaths.AddRange(new string[] { "gameDNAinstaller/Private" });
+			PrivateIncludePaths.AddRange(
+				new string[]
+				{
+					Path.Combine(ModuleDirectory, "Private")
+				});
 
 			PublicDependencyModuleNames.AddRange(new string[]{ "Core", "Projects" });
 

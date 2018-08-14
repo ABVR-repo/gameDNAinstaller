@@ -5,14 +5,14 @@
 #include "SGameDNAinstallerConsole.h"
 #include "EditorStyleSet.h"
 #include "Editor.h"
-#include "Text.h"
+#include "Internationalization/Text.h"
 #include "Engine/StreamableManager.h"
 #include "GameDNAinstallerStyle.h"
-#include "SlateStructs.h"
+#include "Types/SlateStructs.h"
 #include "Runtime/Engine/Classes/Kismet/KismetSystemLibrary.h"
 #include "SGameDNAinstallerPluginEntry.h"
 #include "Widgets/Layout/SConstraintCanvas.h"
-#include "SHyperlink.h"
+#include "Widgets/Input/SHyperlink.h"
 
 void SGameDNAinstallerConsole::Construct(const FArguments& InArgs)
 {

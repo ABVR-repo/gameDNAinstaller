@@ -4,10 +4,10 @@
 
 #pragma once
 
-#include "SListView.h"
-#include "STableRow.h"
-#include "STableViewBase.h"
-#include "SMultiLineEditableTextBox.h"
+#include "Widgets/Views/SListView.h"
+#include "Widgets/Views/STableRow.h"
+#include "Widgets/Views/STableViewBase.h"
+#include "Widgets/Input/SMultiLineEditableTextBox.h"
 #include "SGameDNAinstallerMarshaller.h"
 #include "GameDNAinstallerTypes.h"
 
