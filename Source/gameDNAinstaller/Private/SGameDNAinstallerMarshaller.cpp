@@ -5,9 +5,9 @@
 #include "SGameDNAinstallerMarshaller.h"
 #include "EditorStyleSet.h"
 #include "Editor.h"
-#include "Internationalization/Text.h"
+#include "Runtime/Core/Public/Internationalization/Text.h"
 #include "GameDNAinstallerStyle.h"
-#include "Types/SlateStructs.h"
+#include "Runtime/SlateCore/Public/Types/SlateStructs.h"
 
 
 TSharedRef<FGameDNAinstallerTextLayoutMarshaller> FGameDNAinstallerTextLayoutMarshaller::Create()

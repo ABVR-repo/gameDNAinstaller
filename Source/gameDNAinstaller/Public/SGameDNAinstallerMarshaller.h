@@ -4,9 +4,9 @@
 
 #pragma once
 
-#include "Framework/Text/BaseTextLayoutMarshaller.h"
+#include "Runtime/Slate/Public/Framework/Text/BaseTextLayoutMarshaller.h"
 #include "GameDNAinstallerTypes.h"
-#include "Framework/Text/TextLayout.h"
+#include "Runtime/Slate/Public/Framework/Text/TextLayout.h"
 
 class FGameDNAinstallerTextLayoutMarshaller : public FBaseTextLayoutMarshaller
 {
