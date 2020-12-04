@@ -85,7 +85,7 @@ bool FGameDNAinstallerCore::DownloadPluginsList(const FOnGameDNAinstallerDownloa
 
 		DownloadPluginsListCompletedDelegate = InDownloadPluginsListCompletedDelegate;
 
-		TSharedRef<IHttpRequest> HttpRequest = FHttpModule::Get().CreateRequest();
+		auto HttpRequest = FHttpModule::Get().CreateRequest();
 		HttpRequest->SetURL(TEXT("https://gamednastudio.com/plugins/config/plugins.php"));
 		HttpRequest->OnProcessRequestComplete().BindRaw(this, &FGameDNAinstallerCore::OnDownloadPluginsList);
 		HttpRequest->ProcessRequest();
